@@ -1,0 +1,75 @@
+what is Data Structure?
+A data structure is defined as a particular way of storing and organizing data in our devices to use the data efficiently
+and effectively. 
+An efficient data structure takes minimum memory space and requires minimum time to execute the data.
+
+The complete process to learn DS from scratch can be broken into 3 parts.
+1)Learn about Time and Space complexities.
+2)Learn the basics of individual Data Structures.
+3)Practice Problems on Data Structures.
+
+1)Learn about Time and Space complexities
+The primary motive to use DSA is to solve a problem effectively and efficiently.
+How can you decide if a program written by you is efficient or not? This is measured by complexities.
+complexity is of two trypes
+-Time complexity: Time complexity is used to measure the amount of time required to execute the code.
+-space complexity: Space complexity means the amount of space required to execute successfully the functionalities of the code.
+note:
+Auxiliary space: This is the extra space used in the program other than the input data structure.
+Both of the above complexities are measured with respect to the input parameters. But here arises a problem.
+The time required for executing a code depends on several factors, such as:
+*)The number of operations performed in the program,  
+*)The speed of the device, and also 
+*)The speed of data transfer is being executed on an online platform.
+
+2)Learn Data Structures
+The topic of DSA consists of two parts: 
+a)Data Structures.
+b)Algorithms.
+Though they are two different things, they are highly interrelated, and it is very important to follow the right track
+to learn them most efficiently.
+
+1. Array in javascript:
+An array is a collection of items of the same variable type stored that are stored at contiguous memory locations.
+It’s one of the most popular and simple data structures and is often used to implement other data structures.
+Each item in an array is indexed starting with 0.
+There are basically two ways to declare an array
+check array declearion.js
+    Types of Array operations
+-Traversal: Traverse through the elements of an array.
+-Insertion: Inserting a new element in an array.
+-Deletion: Deleting element from the array.
+-Searching: Search for an element in the array.
+-Sorting: Maintaining the order of elements in the array.
+
+2. String in javascript
+JavaScript strings are used for storing and manipulating text.
+It can contain zero or more characters within quotes.
+There are two ways to create a string in Javascript
+-By string literal.
+-By string object.
+    String operations
+-Substrings: A substring is a sequence of characters within a string.
+-Concatenation: This operation is used for appending one string to the end of another string.
+-Length: It defines the number of characters in the given string.
+-Text Processing Operations: Text processing is the process of creating and editing strings.
+    o)Insertion: This operation is used to insert characters in the string at the specified position.
+    o)Deletion: This operation is used to delete characters in the string at the specified position.
+    o)Update: This operation is used to update characters in the string at the specified position.
+
+3.  Linked List in JavaScript
+A linked list is a linear data structure.
+It is basically chains of nodes, each node contains information such as data and a pointer to the next node in the chain.
+In the linked list there is a head pointer, which points to the first element of the linked list
+and if the list is empty then it simply points to null or nothing.
+    Operations on Linked List:
+a)Traversal: We can traverse the entire linked list starting from the head node.
+If there are n nodes then the time complexity for traversal becomes O(n) as we hop through each and every node.
+b)Insertion: Insert a key to the linked list.
+An insertion can be done in 3 different ways:
+insert at the beginning of the list, insert at the end of the list and insert in the middle of the list.
+c)Deletion: Removes an element x from a given linked list.
+A deletion can be done in 3 different ways;
+delete from the beginning of the list, delete from the end of the list and delete from the middle of the list.
+d)Search: Find the first element with the key k in the given linked list by a simple linear search and 
+returns a pointer to this element
