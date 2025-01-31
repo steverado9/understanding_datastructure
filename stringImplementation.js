@@ -17,3 +17,4 @@ const arrString = ['Geeks', 'for', 'Geeks'];
 console.log(a2.replace('World', arrString[0]));
 
 
+

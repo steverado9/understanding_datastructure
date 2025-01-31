@@ -1,7 +1,7 @@
 //ways to declear an array
-let arrayName = ['value1', 'value2'];//method 1
+const arrayName = ['value1', 'value2'];//method 1
 
-let array = new Array(); //method 2
+const array = new Array(); //method 2
 
 //initializing while declearing
 //create an array having elements 10, 20, 30, 40, 50
