@@ -11,7 +11,7 @@ The complete process to learn DS from scratch can be broken into 3 parts.
 1)Learn about Time and Space complexities
 The primary motive to use DSA is to solve a problem effectively and efficiently.
 How can you decide if a program written by you is efficient or not? This is measured by complexities.
-complexity is of two trypes
+complexity is of two types
 -Time complexity: Time complexity is used to measure the amount of time required to execute the code.
 -space complexity: Space complexity means the amount of space required to execute successfully the functionalities of the code.
 note:
@@ -158,6 +158,7 @@ where an index of the array represents a vertex and each element in its linked l
 -Check if the graph contains a given value.
 -Check if the graph contains a given value.
 
+3)
 
 
 

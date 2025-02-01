@@ -12,7 +12,7 @@ class Graph {
     addVertex(v) {
         //initialize the adjascent list with
         //null array
-        this.AdjList.get(v, []);
+        this.Adjust.get(v, []);
     }
 
     //add edge to the graph
@@ -55,7 +55,7 @@ const g = new Graph(6);
 const vertices = ['A', 'B', 'C', 'D', 'E', 'F'];
 
 //add vertices
-for (const i = 0; i < vertices.length; i++) {
+for (let i = 0; i < vertices.length; i++) {
     g.addVertex(vertices[i])
 } 
 
