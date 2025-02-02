@@ -213,7 +213,25 @@ const newArray = [];
 console.log("AscendingOrder",sortInAscendingOrder([0, 1, 2, 0, 1, 2]));
 
 
+//Quesion 9
+/*
+Given an array arr. Find the majority element in the array. If no majority exists, return -1.
+A majority element in an array is an element that appears strictly more than arr.size()/2 times in the array.
+Examples:
+Input: arr[] = [3, 1, 3, 3, 2]
+Output: 3
+Explanation: Since, 3 is present more than n/2 times, so it is the majority element. */
 
+
+//Question 10
+/*
+Given an array arr[] and an integer k where k is smaller than the size of the array, 
+the task is to find the kth smallest element in the given array.
+Follow up: Don't solve it using the inbuilt sort function.
+Examples :
+Input: arr[] = [7, 10, 4, 3, 20, 15], k = 3
+Output:  7
+Explanation: 3rd smallest element in the given array is 7. */
 
 
 
