@@ -55,8 +55,10 @@ Explanation: "abba" reads the same forwards and backwards, so it is a palindrome
 const s = "abba";
 console.log( s);
 
-const reversedS = console.log( s.split('').reverse().join(''));
-console.log('palindrome', s === reversedS); //why
+const reversedS =  s.split('').reverse().join('')
+console.log('reversed s',reversedS);
+
+console.log('palindrome', s === reversedS); 
 
 //Question 5
 /*Given a string s, reverse the string without reversing its individual words. Words are separated by spaces.
