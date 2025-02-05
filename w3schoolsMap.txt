@@ -1,0 +1,30 @@
+    JavaScript Maps
+A Map holds key-value pairs where the keys can be any datatype.
+A Map remembers the original insertion order of the keys.
+Maps are Objects
+
+    How to Create a Map
+You can create a JavaScript Map by:
+1)Passing an Array to new Map()
+2)Create a Map and use Map.set()
+The set() method can also be used to change existing Map values
+
+    JavaScript Map Methods
+1)The new Map() Method: You can create a map by passing an array to the new Map() constructor
+2)The set() Method: You can add elements to a map with the set() method.
+3)The get() Method: You get the value of a key in a map with the get() method.
+4)Map.size: The size property returns the number of elements in a map.
+5)Map.delete(): The delete() method removes a map element
+6)Map.clear(): The clear() method removes all the elements from a map
+7)Map.has(): The has() method returns true if a key exists in a map
+8)Map.forEach(): The forEach() method invokes a callback for each key/value pair in a map.
+9)Map.entries(): The entries() method returns an iterator object with the [key,values] in a map
+10)Map.keys(): The keys() method returns an iterator object with the keys in a map.
+11)Map.values(): The values() method returns an iterator object with the values in a map.
+12)Objects as Keys: Being able to use objects as keys is an important Map feature.
+13)JavaScript Map.groupBy(): This method groups elements of an object according to string values returned from a callback function.
+    Object.groupBy() vs Map.groupBy()
+The difference between Object.groupBy() and Map.groupBy() is:
+-Object.groupBy() groups elements into a JavaScript object.
+-Map.groupBy() groups elements into a Map object.
+

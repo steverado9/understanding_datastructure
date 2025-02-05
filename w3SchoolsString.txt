@@ -1,0 +1,76 @@
+    Strings
+Strings are for storing text
+Strings are written with quotes
+    Quotes Inside Quotes
+You can use quotes inside a string, as long as they don't match the quotes surrounding the string
+    Template Strings
+Templates are strings enclosed in backticks (`This is a template string`).
+Templates allow single and double quotes inside a string.
+    String Length
+To find the length of a string, use the built-in length property.
+    Escape Characters
+The backslash escape character (\) turns special characters into string characters:
+
+    JavaScript Strings as Objects
+Normally, JavaScript strings are primitive values, created from literals
+But strings can also be defined as objects with the keyword new
+
+    Basic String Methods
+1)JavaScript String Length: The length property returns the length of a string.
+    Extracting String Characters
+2)The charAt():This method returns the character at a specified index (position) in a string.
+3)The charCodeAt(): This method returns the code of the character at a specified index in a string.
+4)at(): This method takes in an index and returns the character at a specified (position) in a string.
+The at() method is a new addition to JavaScript.
+It allows the use of negative indexes while charAt() do not.
+Now you can use myString.at(-2) instead of charAt(myString.length-2)
+    Extracting String Parts
+    There are 3 methods for extracting a part of a string:
+5)slice(): This extracts a part of a string and returns the extracted part in a new string.
+-The method takes 2 parameters: start position, and end position (end not included)
+-Note: JavaScript counts positions from zero.
+-If you omit the second parameter, the method will slice out the rest of the string
+-If a parameter is negative, the position is counted from the end of the string
+6)substring():This is similar to slice().
+The difference is that start and end values less than 0 are treated as 0 in substring().
+7)substr(): This is also similar to slice().
+The difference is that the second parameter specifies the length of the extracted part.
+If you omit the second parameter, substr() will slice out the rest of the string.
+If the first parameter is negative, the position counts from the end of the string.
+    Converting to Upper and Lower Case
+8)toUpperCase(): This is used to convert a string to upper case.
+9)toLowerCase(): This is used to convert a string to lower case. 
+
+10)concat(): This method joins two or more strings
+Note
+All string methods return a new string. They don't modify the original string.
+11) trim(): This method removes whitespace from both sides of a string.
+12)trimStart(): This method works like trim(), but removes whitespace only from the start of a string
+13)trimEnd(): This method works like trim(), but removes whitespace only from the end of a string
+14)padStart(): This method pads a string from the start.
+It pads a string with another string (multiple times) until it reaches a given length.
+15)padEnd(): This method pads a string from the end.
+It pads a string with another string (multiple times) until it reaches a given length.
+16)repeat(): This method returns a string with a number of copies of a string. it takes an index of the number of copies to repeat
+17)replace(): This method replaces a specified value with another value in a string.
+By default, the replace() method replaces only the first match
+18)replaceAll(): This method allows you to specify a regular expression instead of a string to be replaced.
+Converting a String to an Array
+19)split(): A string can be converted to an array with the split() method
+If the separator is omitted, the returned array will contain the whole string in index [0].
+If the separator is "", the returned array will be an array of single characters:
+    String Search Methods
+20)indexOf(): This method returns the index (position) of the first occurrence of a string in a string
+it returns -1 if the string is not found.
+21)lastIndexOf(): This method returns the index of the last occurrence of a specified text in a string
+Both methods accept a second parameter as the starting position for the search
+Both indexOf(), and lastIndexOf() return -1 if the text is not found
+22)search(): This method searches a string for a string (or a regular expression) and returns the position of the match.
+23)match(): This method returns an array containing the results of matching a string against a string
+(or a regular expression).
+24)matchAll(): This method returns an iterator containing the results of matching a string against a string
+(or a regular expression).
+25)includes(): This method returns true if a string contains a specified value.
+26)startsWith(): This method returns true if a string begins with a specified value
+A start position for the search can be specified:
+27)endsWith(): The endsWith() method returns true if a string ends with a specified value.

@@ -2,8 +2,33 @@
 A JavaScript Set is a collection of unique values.
 Each value can only occur once in a Set
 The values can be of any type, primitive values or objects.
+Sets are Objects
 
-How to Create a Set
+    How to Create a Set
 You can create a JavaScript Set by
 -Passing an array to new Set()
 -Create an empty set and use add() to add values
+
+    The add() Method
+If you add equal elements, only the first will be saved:
+cos it is a set and it saves unique values
+
+    Listing the Elements
+You can list all Set elements (values) with a for..of loop
+
+    JavaScript Set Methods
+1)The new Set() Method: This is used to create a set
+2)The add() Method: This is used to add values to the set
+3)The has() Method: The has() method returns true if a specified value exists in a set.
+4)Listing Set Elements: You can list all Set elements (values) with a for..of loop
+5)The forEach() Method: THis method invokes a function for each Set element.
+6)The values() Method: The values() method returns an Iterator object with the values in a Set
+7)The keys() Method: The keys() method returns an Iterator object with the values in a Set
+A Set has no keys, so keys() returns the same as values()
+This makes Sets compatible with Maps
+8)The entries() Method: The entries() method returns an Iterator with [value,value] pairs from a Set
+Note
+The entries() method is supposed to return a [key,value] pair from an object.
+A Set has no keys, so the entries() method returns [value,value].
+This makes Sets compatible with Maps.
+
